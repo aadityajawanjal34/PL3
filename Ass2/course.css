@@ -64,10 +64,23 @@ button:active{
     transform: scale(1.2);
 }
 
-
+.course-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .course-container img{
-    margin: 10px 10px;
-    width: auto ; height :auto; max-height:48vh;
+    margin: 40px 10px;
+    width: 43vw ;
+     height :50vh; 
+     max-height:48vh;
+}
+
+h1{
+    padding: 5px 5px;
+    color: rgb(21, 108, 123);
+    font-family: 'Poppins', sans-serif;
+    text-decoration:wavy;
 }
 
 
