@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to AI Course</title>
+    <link rel="stylesheet" href="bookstore.css">
+</head>
+
+<body>
+<div class="container1">
+        <header>
+            <h2>The Book Club</h2>
+        </header>
+    <nav>
+        <ul>
+        <li>
+            <button id="navbutton">
+                <a id="linku" href="">Home</a>
+            </button>
+        </li>
+        <li>
+            <button id="navbutton">
+                <a id="linku" href="">Books</a>
+            </button>
+        </li>
+        <li>
+            <button id="navbutton">
+                <a id="linku" href="">Contact</a>
+            </button>
+        </li>
+        </ul>
+    </nav>
+        No. of Items in Cart:-
+    <div class="cartcount">0</div>
+</div>
+<div class="books">
+    <div class="individual-book">
+        <div class="book1">
+            <img src="https://m.media-amazon.com/images/I/71FZo7-3BnL._AC_UF1000,1000_QL80_.jpg" alt="">
+        </div>
+        <div class="titlefunction">
+            <h3>The Gone Girl</h3>
+            <b><p>Rs.200</p></b>
+            <button id="cart" onclick="addToCart('The Gone Girl')">Add to Cart</button>
+        </div>
+    </div>
+
+    
+    <div class="individual-book">
+        <div class="book2">
+            <img src="https://cdn.kobo.com/book-images/a753bdb9-a0b6-4013-9aa8-0b466e779fb3/353/569/90/False/harry-potter-and-the-cursed-child-parts-one-and-two-the-official-playscript-of-the-original-west-end-production.jpg" alt="">
+        </div>
+        <div class="titlefunction">
+            <h3>Harry Potter</h3>
+            <b><p>Rs.700</p></b>
+            <button id="cart" onclick="addToCart('Harry Potter')">Add to Cart</button>
+        </div>
+    </div>
+
+
+    <div class="individual-book">
+        <div class="book3">
+            <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1566425108l/33.jpg" alt="">
+        </div>
+        <div class="titlefunction">
+            <h3>The Lord of the Rings</h3>
+            <b><p>Rs.450</p></b>
+            <button id="cart" onclick="addToCart('The Lord of the Rings')">Add to Cart</button>
+        </div>
+    </div>
+
+
+
+    <div class="individual-book">
+        <div class="book4">
+            <img src="https://n4.sdlcdn.com/imgs/k/o/b/850X995_sharpened_2_1/The-Silent-Patient-English-Paperback-SDL749185685-1-59dac.webp" alt="">
+        </div>
+        <div class="titlefunction">
+            <h3>Silent Patient</h3>
+           <b><p>Rs.250</p></b>
+           <button id="cart" onclick="addToCart('Silent Patient')">Add to Cart</button>
+        </div>   
+    </div>
+</div>
+<script src="bookstore.js"></script>
+</body>
+</html>
+
