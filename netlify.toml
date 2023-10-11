@@ -1,0 +1,3 @@
+[build]
+  base = "Ass3" # Specify the subfolder where your code is located
+  publish = "Ass3" # Specify the subfolder to deploy
